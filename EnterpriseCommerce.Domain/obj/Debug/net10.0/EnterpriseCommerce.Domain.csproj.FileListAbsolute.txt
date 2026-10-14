@@ -9,3 +9,5 @@ D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\Enterpris
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\refint\EnterpriseCommerce.Domain.dll
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\EnterpriseCommerce.Domain.pdb
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\ref\EnterpriseCommerce.Domain.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\EnterpriseCommerce.Domain.sourcelink.json
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\Enterpri.D757A8C7.Up2Date

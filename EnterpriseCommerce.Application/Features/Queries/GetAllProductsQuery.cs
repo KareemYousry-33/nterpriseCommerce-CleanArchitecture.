@@ -6,7 +6,6 @@ using MediatR;
 
 namespace EnterpriseCommerce.Application.Features.Products.Queries;
 
-// لاحظ القيم الافتراضية للـ Pagination: صفحة 1، وحجم الصفحة 10 منتجات
 public record GetAllProductsQuery(
     Guid? CategoryId = null,
     string? Search = null,
@@ -25,7 +24,6 @@ public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQuery, R
 
     public async Task<Result<IReadOnlyList<ProductDto>>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
     {
-        // نجهز الورقة (الـ Specification) بكل الشروط اللي بعتها الفرونت إند
         var spec = new ProductsWithCategoriesSpecification(
             request.CategoryId,
             request.Search,
@@ -33,7 +31,6 @@ public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQuery, R
             request.PageIndex,
             request.PageSize);
 
-        // نبعتها للـ Repository ينفذها ويرجعلنا المنتجات شاملة القسم!
         var products = await _unitOfWork.Repository<Product>().ListWithSpecAsync(spec, cancellationToken);
 
         var dtos = products.Select(p => new ProductDto(

@@ -51,7 +51,6 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
         _context.Set<T>().Remove(entity);
     }
 
-    // دالة مساعدة خاصة بتبعت الجدول والمواصفة للـ SpecificationEvaluator
     private IQueryable<T> ApplySpecification(ISpecification<T> spec)
     {
         return SpecificationEvaluator<T>.GetQuery(_context.Set<T>().AsQueryable(), spec);

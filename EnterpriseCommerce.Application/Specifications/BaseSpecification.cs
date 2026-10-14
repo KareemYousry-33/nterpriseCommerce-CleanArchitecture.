@@ -22,13 +22,11 @@ public abstract class BaseSpecification<T> : ISpecification<T> where T : BaseEnt
     public int Skip { get; private set; }
     public bool IsPagingEnabled { get; private set; }
 
-    // دالة مساعدة لإضافة Include بسهولة
     protected void AddInclude(Expression<Func<T, object>> includeExpression)
     {
         Includes.Add(includeExpression);
     }
 
-    // دوال مساعدة للترتيب
     protected void AddOrderBy(Expression<Func<T, object>> orderByExpression)
     {
         OrderBy = orderByExpression;
@@ -39,7 +37,6 @@ public abstract class BaseSpecification<T> : ISpecification<T> where T : BaseEnt
         OrderByDescending = orderByDescExpression;
     }
 
-    // دالة مساعدة لتفعيل الـ Pagination
     protected void ApplyPaging(int skip, int take)
     {
         Skip = skip;

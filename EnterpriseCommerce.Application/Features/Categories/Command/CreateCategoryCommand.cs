@@ -6,10 +6,8 @@ using MediatR;
 
 namespace EnterpriseCommerce.Application.Features.Categories.Commands;
 
-// 1. الطلب نفسه (البيانات اللي جاية من اليوزر) وبيرجع Result فيها الـ Id الجديد
 public record CreateCategoryCommand(string Name, string Description) : IRequest<Result<Guid>>;
 
-// 2. التحقق من البيانات (Validation) قبل ما الكود يشتغل أصلاً
 public class CreateCategoryValidator : AbstractValidator<CreateCategoryCommand>
 {
     public CreateCategoryValidator()
@@ -23,7 +21,6 @@ public class CreateCategoryValidator : AbstractValidator<CreateCategoryCommand>
     }
 }
 
-// 3. المنفذ الفعلي للعملية (Handler)
 public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryCommand, Result<Guid>>
 {
     private readonly IUnitOfWork _unitOfWork;

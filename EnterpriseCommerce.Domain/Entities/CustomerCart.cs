@@ -11,9 +11,8 @@ public class CartItem
 
 public class CustomerCart
 {
-    public string Id { get; set; } = string.Empty; // هيكون هو الـ UserId
+    public string Id { get; set; } = string.Empty; 
     public List<CartItem> Items { get; set; } = new();
 
-    // خاصية بتحسب الإجمالي أوتوماتيك من غير ما نخزنها
     public decimal TotalPrice => Items.Sum(item => item.UnitPrice * item.Quantity);
 }

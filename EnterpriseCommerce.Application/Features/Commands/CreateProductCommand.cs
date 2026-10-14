@@ -6,7 +6,6 @@ using MediatR;
 
 namespace EnterpriseCommerce.Application.Features.Products.Commands;
 
-// 1. الـ Command
 public record CreateProductCommand(
     string Name,
     string Description,
@@ -15,7 +14,6 @@ public record CreateProductCommand(
     string ImageUrl,
     Guid CategoryId) : IRequest<Result<Guid>>;
 
-// 2. الـ Validator (التحقق من صحة البيانات قبل دخول الداتابيز)
 public class CreateProductCommandValidator : AbstractValidator<CreateProductCommand>
 {
     public CreateProductCommandValidator()
@@ -27,7 +25,6 @@ public class CreateProductCommandValidator : AbstractValidator<CreateProductComm
     }
 }
 
-// 3. الـ Handler
 public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, Result<Guid>>
 {
     private readonly IUnitOfWork _unitOfWork;
@@ -39,7 +36,6 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
 
     public async Task<Result<Guid>> Handle(CreateProductCommand request, CancellationToken cancellationToken)
     {
-        // نتأكد الأول إن القسم (Category) ده موجود فعلاً في الداتابيز!
         var category = await _unitOfWork.Repository<Category>().GetByIdAsync(request.CategoryId, cancellationToken);
         if (category is null)
         {

@@ -8,5 +8,4 @@ public record ProductDto(
     int StockQuantity,
     string ImageUrl,
     Guid CategoryId,
-    string CategoryName // هنجيب اسم القسم بفضل الـ Include في الـ Specification!
-);
+    string CategoryName 

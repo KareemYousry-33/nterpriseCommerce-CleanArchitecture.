@@ -13,3 +13,4 @@ D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\Ente
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\refint\EnterpriseCommerce.Application.dll
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\EnterpriseCommerce.Application.pdb
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\ref\EnterpriseCommerce.Application.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\EnterpriseCommerce.Application.sourcelink.json

@@ -5,10 +5,8 @@ using MediatR;
 
 namespace EnterpriseCommerce.Application.Features.Categories.Queries;
 
-// 1. طلب الاستعلام: مبنحتاجش نبعت معاه أي باراميترز، وبيرجع قائمة من CategoryDto
 public record GetAllCategoriesQuery() : IRequest<Result<IReadOnlyList<CategoryDto>>>;
 
-// 2. المعالج (Handler) اللي بيجيب الداتا ويحولها لـ DTO
 public class GetAllCategoriesQueryHandler : IRequestHandler<GetAllCategoriesQuery, Result<IReadOnlyList<CategoryDto>>>
 {
     private readonly IUnitOfWork _unitOfWork;

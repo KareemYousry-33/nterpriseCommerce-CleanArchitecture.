@@ -138,3 +138,4 @@ D:\.Net\EnterpriseCommerce\EnterpriseCommerce.API\bin\Debug\net10.0\Swashbuckle.
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.API\obj\Debug\net10.0\EnterpriseCommerce.API.sourcelink.json

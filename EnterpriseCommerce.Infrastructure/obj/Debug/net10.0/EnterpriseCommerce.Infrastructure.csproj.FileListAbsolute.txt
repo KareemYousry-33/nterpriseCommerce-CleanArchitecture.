@@ -15,3 +15,4 @@ D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Infrastructure\obj\Debug\net10.0\E
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Infrastructure\obj\Debug\net10.0\refint\EnterpriseCommerce.Infrastructure.dll
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Infrastructure\obj\Debug\net10.0\EnterpriseCommerce.Infrastructure.pdb
 D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Infrastructure\obj\Debug\net10.0\ref\EnterpriseCommerce.Infrastructure.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Infrastructure\obj\Debug\net10.0\EnterpriseCommerce.Infrastructure.sourcelink.json

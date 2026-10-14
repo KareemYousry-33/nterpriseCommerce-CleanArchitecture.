@@ -19,7 +19,6 @@ public class ApplicationDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-        // تحديد دقة الأرقام العشرية للأسعار عشان ميحصلش تقريب غلط في الفلوس
         modelBuilder.Entity<Product>()
             .Property(p => p.Price)
             .HasPrecision(18, 2);
@@ -33,7 +32,6 @@ public class ApplicationDbContext : DbContext
             .HasPrecision(18, 2);
     }
 
-    // تحديث تاريخ التعديل تلقائياً مع كل عملية حفظ
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
     {
         foreach (var entry in ChangeTracker.Entries<BaseEntity>())

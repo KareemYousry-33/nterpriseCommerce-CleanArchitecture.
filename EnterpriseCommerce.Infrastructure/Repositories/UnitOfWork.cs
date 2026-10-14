@@ -19,7 +19,6 @@ public class UnitOfWork : IUnitOfWork
     {
         var type = typeof(TEntity).Name;
 
-        // لو الـ Repository ده اتطلب قبل كده في نفس الـ Request يرجعه، لو لأ ينشئه
         return (IGenericRepository<TEntity>)_repositories.GetOrAdd(type, _ => new GenericRepository<TEntity>(_context));
     }
 
