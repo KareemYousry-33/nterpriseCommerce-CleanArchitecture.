@@ -1,0 +1,11 @@
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\bin\Debug\net10.0\EnterpriseCommerce.Domain.deps.json
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\bin\Debug\net10.0\EnterpriseCommerce.Domain.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\bin\Debug\net10.0\EnterpriseCommerce.Domain.pdb
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\EnterpriseCommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\EnterpriseCommerce.Domain.AssemblyInfoInputs.cache
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\EnterpriseCommerce.Domain.AssemblyInfo.cs
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\EnterpriseCommerce.Domain.csproj.CoreCompileInputs.cache
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\EnterpriseCommerce.Domain.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\refint\EnterpriseCommerce.Domain.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\EnterpriseCommerce.Domain.pdb
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Domain\obj\Debug\net10.0\ref\EnterpriseCommerce.Domain.dll

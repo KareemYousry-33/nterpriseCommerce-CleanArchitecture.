@@ -1,0 +1,15 @@
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\bin\Debug\net10.0\EnterpriseCommerce.Application.deps.json
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\bin\Debug\net10.0\EnterpriseCommerce.Application.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\bin\Debug\net10.0\EnterpriseCommerce.Application.pdb
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\bin\Debug\net10.0\EnterpriseCommerce.Domain.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\bin\Debug\net10.0\EnterpriseCommerce.Domain.pdb
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\EnterpriseCommerce.Application.csproj.AssemblyReference.cache
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\EnterpriseCommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\EnterpriseCommerce.Application.AssemblyInfoInputs.cache
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\EnterpriseCommerce.Application.AssemblyInfo.cs
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\EnterpriseCommerce.Application.csproj.CoreCompileInputs.cache
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\Enterpri.5272C83B.Up2Date
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\EnterpriseCommerce.Application.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\refint\EnterpriseCommerce.Application.dll
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\EnterpriseCommerce.Application.pdb
+D:\.Net\EnterpriseCommerce\EnterpriseCommerce.Application\obj\Debug\net10.0\ref\EnterpriseCommerce.Application.dll

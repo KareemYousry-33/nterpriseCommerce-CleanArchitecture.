@@ -1,0 +1,6 @@
+﻿namespace EnterpriseCommerce.src
+{
+    public class EnterpriseCommerce
+    {
+    }
+}
